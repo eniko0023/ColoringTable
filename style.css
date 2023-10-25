@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: rgb(207, 229, 155);
+}
+.content{
+    margin: 2rem auto;
+    height: 80vh;
+    width: 80vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-color: rgb(255, 90, 103);
+}
+.box{
+    border: 1px solid #000;
+}
